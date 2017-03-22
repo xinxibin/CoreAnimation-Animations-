@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_CAGradientLayer_详解" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u2a-fh-5yI">
+                                <rect key="frame" x="180" y="28" width="240" height="240"/>
+                                <color key="backgroundColor" red="1" green="0.88058410234899331" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="Ntj-qr-UyK"/>
+                                    <constraint firstAttribute="width" constant="240" id="WlB-Yr-NzC"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qec-9A-2RT">
+                                <rect key="frame" x="180" y="369" width="240" height="240"/>
+                                <color key="backgroundColor" red="1" green="0.88058410229999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="it6-MA-q86"/>
+                                    <constraint firstAttribute="height" constant="240" id="uEd-rE-1oW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="u2a-fh-5yI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-152" id="VU5-6K-ifJ"/>
+                            <constraint firstItem="Qec-9A-2RT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WKa-Vg-CV0"/>
+                            <constraint firstItem="u2a-fh-5yI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e9N-kw-Sty"/>
+                            <constraint firstItem="Qec-9A-2RT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="189" id="eU5-Qu-K3V"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gradientView" destination="u2a-fh-5yI" id="KkK-oW-rv5"/>
+                        <outlet property="gradientView2" destination="Qec-9A-2RT" id="SJG-EG-PF4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ynu-3D-drw">
+                                <rect key="frame" x="40" y="160" width="240" height="248"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="248" id="Mby-Je-OLv"/>
+                                    <constraint firstAttribute="width" constant="240" id="day-fE-J17"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z09-Yj-KGp">
+                                <rect key="frame" x="0.0" y="5" width="320" height="555"/>
+                                <connections>
+                                    <action selector="onBlackBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G2u-Xc-bGx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ynu-3D-drw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1tj-zp-B1y"/>
+                            <constraint firstItem="z09-Yj-KGp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="5" id="4LF-15-nzH"/>
+                            <constraint firstAttribute="trailing" secondItem="z09-Yj-KGp" secondAttribute="trailing" id="DHF-SZ-1Qq"/>
+                            <constraint firstItem="z09-Yj-KGp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TBh-WA-yya"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="z09-Yj-KGp" secondAttribute="bottom" constant="8" id="fO1-GW-nNx"/>
+                            <constraint firstItem="Ynu-3D-drw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jNg-jv-cce"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="layerView" destination="Ynu-3D-drw" id="XiT-vi-0R5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104" y="264"/>
+        </scene>
+    </scenes>
+</document>
