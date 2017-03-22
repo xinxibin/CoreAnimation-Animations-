@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41B159BD1D423A040091190A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B159BC1D423A040091190A /* main.m */; };
+		41B159C01D423A040091190A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B159BF1D423A040091190A /* AppDelegate.m */; };
+		41B159C31D423A040091190A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B159C21D423A040091190A /* ViewController.m */; };
+		41B159C61D423A040091190A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B159C41D423A040091190A /* Main.storyboard */; };
+		41B159C81D423A040091190A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B159C71D423A040091190A /* Assets.xcassets */; };
+		41B159CB1D423A040091190A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B159C91D423A040091190A /* LaunchScreen.storyboard */; };
+		41B159D41D423A100091190A /* LRRadarIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B159D31D423A100091190A /* LRRadarIndicatorView.m */; };
+		41B159D61D423C580091190A /* radar_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B159D51D423C580091190A /* radar_background@2x.png */; };
+		41D8167A1D45A56B00D555F7 /* RadarScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D816791D45A56B00D555F7 /* RadarScanningView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41B159B81D423A040091190A /* iOS 雷达扫描扇形拼接.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS 雷达扫描扇形拼接.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B159BC1D423A040091190A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41B159BE1D423A040091190A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41B159BF1D423A040091190A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41B159C11D423A040091190A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41B159C21D423A040091190A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41B159C51D423A040091190A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41B159C71D423A040091190A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41B159CA1D423A040091190A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41B159CC1D423A040091190A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41B159D21D423A100091190A /* LRRadarIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRRadarIndicatorView.h; sourceTree = "<group>"; };
+		41B159D31D423A100091190A /* LRRadarIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRRadarIndicatorView.m; sourceTree = "<group>"; };
+		41B159D51D423C580091190A /* radar_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radar_background@2x.png"; sourceTree = "<group>"; };
+		41D816781D45A56B00D555F7 /* RadarScanningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarScanningView.h; sourceTree = "<group>"; };
+		41D816791D45A56B00D555F7 /* RadarScanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarScanningView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41B159B51D423A040091190A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41B159AF1D423A040091190A = {
+			isa = PBXGroup;
+			children = (
+				41B159BA1D423A040091190A /* iOS 雷达扫描扇形拼接 */,
+				41B159B91D423A040091190A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41B159B91D423A040091190A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41B159B81D423A040091190A /* iOS 雷达扫描扇形拼接.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41B159BA1D423A040091190A /* iOS 雷达扫描扇形拼接 */ = {
+			isa = PBXGroup;
+			children = (
+				41B159D21D423A100091190A /* LRRadarIndicatorView.h */,
+				41B159D31D423A100091190A /* LRRadarIndicatorView.m */,
+				41B159BE1D423A040091190A /* AppDelegate.h */,
+				41B159BF1D423A040091190A /* AppDelegate.m */,
+				41B159C11D423A040091190A /* ViewController.h */,
+				41B159C21D423A040091190A /* ViewController.m */,
+				41D816781D45A56B00D555F7 /* RadarScanningView.h */,
+				41D816791D45A56B00D555F7 /* RadarScanningView.m */,
+				41B159C41D423A040091190A /* Main.storyboard */,
+				41B159C71D423A040091190A /* Assets.xcassets */,
+				41B159D51D423C580091190A /* radar_background@2x.png */,
+				41B159C91D423A040091190A /* LaunchScreen.storyboard */,
+				41B159CC1D423A040091190A /* Info.plist */,
+				41B159BB1D423A040091190A /* Supporting Files */,
+			);
+			path = "iOS 雷达扫描扇形拼接";
+			sourceTree = "<group>";
+		};
+		41B159BB1D423A040091190A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41B159BC1D423A040091190A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41B159B71D423A040091190A /* iOS 雷达扫描扇形拼接 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B159CF1D423A040091190A /* Build configuration list for PBXNativeTarget "iOS 雷达扫描扇形拼接" */;
+			buildPhases = (
+				41B159B41D423A040091190A /* Sources */,
+				41B159B51D423A040091190A /* Frameworks */,
+				41B159B61D423A040091190A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS 雷达扫描扇形拼接";
+			productName = "iOS 雷达扫描扇形拼接";
+			productReference = 41B159B81D423A040091190A /* iOS 雷达扫描扇形拼接.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41B159B01D423A040091190A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GloryMan;
+				TargetAttributes = {
+					41B159B71D423A040091190A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 41B159B31D423A040091190A /* Build configuration list for PBXProject "iOS 雷达扫描扇形拼接" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41B159AF1D423A040091190A;
+			productRefGroup = 41B159B91D423A040091190A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41B159B71D423A040091190A /* iOS 雷达扫描扇形拼接 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41B159B61D423A040091190A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B159CB1D423A040091190A /* LaunchScreen.storyboard in Resources */,
+				41B159D61D423C580091190A /* radar_background@2x.png in Resources */,
+				41B159C81D423A040091190A /* Assets.xcassets in Resources */,
+				41B159C61D423A040091190A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41B159B41D423A040091190A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B159C31D423A040091190A /* ViewController.m in Sources */,
+				41B159D41D423A100091190A /* LRRadarIndicatorView.m in Sources */,
+				41B159C01D423A040091190A /* AppDelegate.m in Sources */,
+				41D8167A1D45A56B00D555F7 /* RadarScanningView.m in Sources */,
+				41B159BD1D423A040091190A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41B159C41D423A040091190A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B159C51D423A040091190A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41B159C91D423A040091190A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B159CA1D423A040091190A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41B159CD1D423A040091190A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41B159CE1D423A040091190A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41B159D01D423A040091190A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS 雷达扫描扇形拼接/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-06907778-qq.com.iOS---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41B159D11D423A040091190A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS 雷达扫描扇形拼接/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-06907778-qq.com.iOS---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41B159B31D423A040091190A /* Build configuration list for PBXProject "iOS 雷达扫描扇形拼接" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B159CD1D423A040091190A /* Debug */,
+				41B159CE1D423A040091190A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41B159CF1D423A040091190A /* Build configuration list for PBXNativeTarget "iOS 雷达扫描扇形拼接" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B159D01D423A040091190A /* Debug */,
+				41B159D11D423A040091190A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41B159B01D423A040091190A /* Project object */;
+}

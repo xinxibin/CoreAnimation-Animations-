@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_CAShapeLayer实现三转叉动画" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DG6-8O-t52">
+                                <rect key="frame" x="130" y="269" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="34F-ef-HN7"/>
+                                    <constraint firstAttribute="height" constant="60" id="rFW-tR-umO"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="onBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kJn-Oz-Arr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djk-ja-RKA">
+                                <rect key="frame" x="130" y="62" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="jTi-jf-V82"/>
+                                    <constraint firstAttribute="width" constant="60" id="npz-Z9-Ucc"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="onBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MT8-LV-aLv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DG6-8O-t52" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="68X-Ix-uRF"/>
+                            <constraint firstItem="DG6-8O-t52" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Ew-vE-bLM"/>
+                            <constraint firstItem="djk-ja-RKA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WlF-5H-Qgt"/>
+                            <constraint firstItem="djk-ja-RKA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="42" id="qsS-f6-7Pz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonShapeView" destination="DG6-8O-t52" id="4c9-lM-sZQ"/>
+                        <outlet property="topButtonShapeView" destination="djk-ja-RKA" id="ghP-CA-YEc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="194.13333333333333" y="282.57999999999998"/>
+        </scene>
+    </scenes>
+</document>
